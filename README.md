@@ -2,6 +2,7 @@
 
 This project came into existence because of the landing page assignment in The Odin Project as part
 of their Curriculum.
+[Visit the Completed Landing Page Here](https://tanishkhatri.github.io/landing-page/)
 
 ## Page Theme
 
