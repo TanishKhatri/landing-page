@@ -101,6 +101,7 @@ h1,p {
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: space-between;
+	row-gap: 16px;
 }
 
 .menu-item {
