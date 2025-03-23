@@ -7,16 +7,34 @@
   <title>Landing Page</title>
 </head>
 <body>
+  <!-- The page is designed in a flexible manner by making the footer stick to the bottom using justify-content: Space Between -->
   <div class="content">
+    
+    <!-- Encompasses the logo image and the navigation links -->
     <div class="header">
-      <img src="img/cryonex_banner.png" width="180" height="54">
-      <ul class="navigation">
-        <li><a href="">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">About</a></li>
-      </ul>
+      <img class="logo-banner" src="img/cryonex_banner.png" width="180" height="54">
+      <nav>
+        <ul class="navigation secondary">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
     </div>
+
+    <!-- Start of hero content -->
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="hero-main">Our Mission Statement</h1>
+        <p class="secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt qui ratione consequatur quibusdam obcaecati explicabo repellat repudiandae veritatis ab officia inventore facilis.</p>
+        <button class="sign-up">Sign Up</button>
+      </div>
+      <img class="hero-img" src="img/sattelite.jpg" width="320" height="200">
+    </div>
+
   </div>
-  <footer class="footer"></footer>
+  <footer class="footer secondary">
+    <div>Copyright &copy; Cryonex ltd. 2025</div>
+  </footer>
 </body>
 </html>
