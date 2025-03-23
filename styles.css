@@ -1,5 +1,30 @@
 body {
-    font-family: "Roboto";
-    display: flex;
-    flex-direction: column;
+	font-family: "Roboto";
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1f2937;
+	padding: 0px 200px;
+}
+
+.navigation {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+}
+
+li a,
+a:visited {
+	color: #e5e7eb;
+	font-size: 18px;
+	text-decoration: none;
 }
