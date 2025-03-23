@@ -52,14 +52,13 @@ body {
 	padding: 48px 200px;
 	background-color: #1f2937;
 	justify-content: space-between;
-	gap:12px;
+	gap:6px;
 	height: fit-content;
 }
 
 .hero-content {
 	display: flex;
 	flex-direction: column;
-	width:50%;
 	gap: 12px;
 }
 
@@ -149,6 +148,7 @@ h1,p {
 	align-items: center;
 	color:#e5e7eb;
 	border-radius: 10px;
+	gap: 20px;
 }
 
 .call-head {
